@@ -22,5 +22,11 @@ public class main {
            System.out.println(eL.toString());
            c=br.readLine();
          }
+          int x=Integer.parseInt(br.readLine());
+         while(x!=-1){
+         eL.add(x,"hehe"+x);
+         System.out.println(eL.toString());
+          x=Integer.parseInt(br.readLine());
+         }
    }
 }
